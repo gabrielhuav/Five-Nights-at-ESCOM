@@ -29,7 +29,7 @@
   "option_android_icon_adaptivebg_xhdpi":"${options_dir}/android/icons_adaptivebg/xhdpi.png",
   "option_android_icon_adaptivebg_xxhdpi":"${options_dir}/android/icons_adaptivebg/xxhdpi.png",
   "option_android_icon_adaptivebg_xxxhdpi":"${options_dir}/android/icons_adaptivebg/xxxhdpi.png",
-  "option_android_icon_adaptive_generate":true,
+  "option_android_icon_adaptive_generate":false,
   "option_android_icon_adaptive_hdpi":"${options_dir}/android/icons_adaptive/hdpi.png",
   "option_android_icon_adaptive_ldpi":"${options_dir}/android/icons_adaptive/ldpi.png",
   "option_android_icon_adaptive_mdpi":"${options_dir}/android/icons_adaptive/mdpi.png",
