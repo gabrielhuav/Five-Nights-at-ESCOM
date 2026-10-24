@@ -1,3 +1,5 @@
+if (instance_exists(obj_MM_Empty) && obj_MM_Empty.privacy_open) exit;
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 74F54F49
