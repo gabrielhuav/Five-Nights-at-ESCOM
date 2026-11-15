@@ -10,7 +10,7 @@ La actualización **0.1.10 (1010)** se prepara en `codex/play-options-update`, c
 
 Evidencia y nueva documentación: `C:\Users\gabri\Downloads\1151055 Administracion\Publicacion Five Nights at ESCOM\Actualizacion Opciones y Pausa 2026-11-14`.
 
-**Carga completada:** Console reconoció 1010/0.1.10 y guardó un cambio de Alpha pendiente de envío a revisión. Dos advertencias de diagnóstico, sin errores bloqueantes; verificaciones rápidas iniciadas. No se pulsó «Enviar 1 cambio a revisión». Véase [el informe detallado de 0.1.10](ACTUALIZACION_0.1.10_2026-11-14.md), que documenta artefactos, pruebas, capturas y límites.
+**Carga completada:** Console reconoció 1010/0.1.10 y guardó un cambio de Alpha pendiente de envío a revisión. Dos advertencias de diagnóstico, sin errores bloqueantes; verificaciones rápidas completadas: Console indica que los cambios ya se pueden enviar. No se pulsó «Enviar 1 cambio a revisión». Véase [el informe detallado de 0.1.10](ACTUALIZACION_0.1.10_2026-11-14.md), que documenta artefactos, pruebas, capturas y límites.
 
 Este estado sustituye los pendientes de integración de los bloques históricos siguientes.
 

@@ -66,3 +66,8 @@ Antes del envío: comprobar resultado de verificaciones rápidas, mostrar el res
 ## 8. Conservación y documentación
 
 Capturas PNG numeradas, completas y máximo1600px de ancho en `capturas`; JPG originales conservados. Índice y composición de la nueva presentación acompañan este informe. Las formas de foco son editables y están sobre las capturas, no pintadas en ellas. Referencia institucional y material anterior de Noche2 se conservaron sin cambios. El informe y la presentación reflejan el corte previo al envío y se ampliarán con el resultado real tras la autorización.
+
+
+## 9. Verificaciones rápidas completadas · cierre previo al envío
+
+Al volver a consultar el resumen, Play mostró **«Ya se pueden enviar tus cambios a revisión»**. Se guardó la captura024. Las verificaciones rápidas terminaron; continúa un único cambio pendiente de envío para Alpha0.1.10/1010. Esto no es aprobación de Google ni publicación. No se pulsó Enviar. PR #8 contiene versión y contexto; ambas comprobaciones requeridas aprobaron y la regla de main mantiene el PR bloqueado hasta autorización del propietario.
