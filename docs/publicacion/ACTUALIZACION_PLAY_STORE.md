@@ -1,8 +1,8 @@
 # Actualizaciones de Five Nights at ESCOM en Google Play
 
-**PR #6 y PR #7 integrados.** Opciones, pausa táctil y correcciones de ú/audio están en `main`; CODEOWNERS requiere revisión de @gabrielhuav. Preparando Android0.1.10/1010. Play sigue en0.1.1/1001; no hay nuevo envío a revisión ni publicación. Consultar el estado vigente de publicación.
+**Estado vigente: 0.1.10 (1010) enviada a revisión en Alpha. Envío ID 3, 14 nov 2026, 20:35 (Ciudad de México). PR #8 fusionado en `dcfffa8`. No hay aprobación ni publicación confirmada para esta versión.** [Comprobante e historial](ACTUALIZACION_0.1.10_2026-11-14.md).
 
-## Estado posterior vigente · 14 nov 2026, por la noche
+## Historial de preparación previo al envío · 14 nov 2026
 
 PR #6 **fusionado por el propietario** (`ae1037c`); PR #7 **fusionado tras autorización expresa** (`c267873`). La lógica del juego coincide con `6b76378`, probado en APK1009; sólo se añadió CODEOWNERS. Main está protegida mediante reglas27289829: PR, aprobación del propietario, revisión nueva tras cambios y ambas comprobaciones obligatorias. La excepción del único administrador sólo permite actuar mediante PR.
 
