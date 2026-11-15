@@ -1,6 +1,6 @@
 # Actualización 0.1.10 (1010) · Opciones y pausa táctil
 
-Registro real del 14 de noviembre de 2026, Ciudad de México. **Estado vigente: 0.1.10 (1010) enviada a revisión en Alpha. Envío ID 3, 14 nov 2026, 20:35 (Ciudad de México). PR #8 fusionado en `dcfffa8`. No hay aprobación ni publicación confirmada para esta versión.** La pista sigue siendo prueba cerrada Alpha, no producción abierta.
+Registro real del 14 de noviembre de 2026, Ciudad de México. **Estado vigente: 0.1.10 (1010) PUBLICADA en la prueba cerrada Alpha. Envío ID 3: enviado el 14 nov 2026 a las 20:35 y publicado a las 20:42 (Ciudad de México), confirmado directamente en Play Console. No es producción abierta.** La pista sigue siendo prueba cerrada Alpha, no producción abierta.
 
 ## 1. Punto de partida y alcance
 
@@ -87,3 +87,14 @@ El propietario respondió expresamente: **«Sí, incorporar PR #8 y enviar a rev
 **Resultado real:** envío3 recibido y En revisión. No se observó aprobación ni publicación de0.1.10. La revisión y su plazo dependen de Google; la publicación administrada sigue desactivada, de modo que su aprobación podría activar automáticamente el segmento Alpha existente. No se modificaron cuenta, países, verificadores, ficha, política ni producción abierta.
 
 Se conserva la presentación anterior `PREVIO_ENVIO.pptx` y se creó una entrega separada `Actualizar_Five_Nights_at_ESCOM_GameMaker_0.1.10_ENVIO_3.pptx`, con los pasos reales de confirmación y comprobación del envío. Los apartados1–9 son el historial de preparación; este apartado y el encabezado prevalecen para el estado actual. Queda comprobar aprobación y lanzamiento cuando ocurra, sin inferirlos de este envío.
+
+
+## 11. Publicación comprobada directamente · 14 nov 2026
+
+A petición del propietario («me parece que ya pasó la revisión»), se volvió a cargar el detalle del envío3. Play Console mostró **Estado: Publicado · El nov14,2026,8:42p.m.** para el único cambio de **Prueba cerrada - Alpha**, **0.1.10 (1010) · Opciones y pausa táctil**. La notificación de Console también indicó que se publicó la actualización y advirtió que la visibilidad puede tardar un poco más.
+
+Se cerró únicamente el panel de notificaciones, sin borrar notificaciones, y se guardó la captura completa **029_envio_3_publicado.png** (máximo1600px). El registro conserva: envío3 a las20:35, publicación a las **20:42 del14nov2026**, Ciudad de México. La comprobación directa se realizó a las23:47 del mismo día. No se pulsó un botón de publicación adicional ni se cambió ningún ajuste: la publicación administrada estaba desactivada y la versión pasó de revisión a publicada.
+
+**Resultado final:** la0.1.10/1010 ya pasó revisión y está publicada en la **prueba cerrada Alpha**. No se lanzó en producción abierta ni se ampliaron países o verificadores. No se comprobó una descarga o actualización nueva desde Play en un dispositivo después de este lanzamiento; la confirmación procede del estado Publicado de Console, no de una instalación inferida.
+
+Se conservan las entregas PREVIO_ENVIO y ENVIO_3 como historial. Se creó una presentación separada `Actualizar_Five_Nights_at_ESCOM_GameMaker_0.1.10_PUBLICADA.pptx`, añadiendo la comprobación real de publicación. Este apartado y el encabezado sustituyen los estados previos En revisión o pendiente de envío. No cambian las pruebas realizadas ni sus límites.

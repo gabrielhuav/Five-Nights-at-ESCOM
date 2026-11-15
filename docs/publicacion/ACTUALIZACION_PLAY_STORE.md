@@ -1,6 +1,6 @@
 # Actualizaciones de Five Nights at ESCOM en Google Play
 
-**Estado vigente: 0.1.10 (1010) enviada a revisión en Alpha. Envío ID 3, 14 nov 2026, 20:35 (Ciudad de México). PR #8 fusionado en `dcfffa8`. No hay aprobación ni publicación confirmada para esta versión.** [Comprobante e historial](ACTUALIZACION_0.1.10_2026-11-14.md).
+**Estado vigente: 0.1.10 (1010) PUBLICADA en la prueba cerrada Alpha. Envío ID 3: enviado el 14 nov 2026 a las 20:35 y publicado a las 20:42 (Ciudad de México), confirmado directamente en Play Console. No es producción abierta.** [Comprobante e historial](ACTUALIZACION_0.1.10_2026-11-14.md).
 
 ## Historial de preparación previo al envío · 14 nov 2026
 
