@@ -12,4 +12,4 @@ La procedencia y las condiciones de música, sonidos, fotografías, gráficos y 
 
 El 23 de octubre de 2026, el responsable confirmó que disponen de creaciones propias con permiso para distribuirlas en Google Play. La relación de archivos fuente se conserva en el expediente local de publicación para revisar las autorizaciones concretas sin sustituir licencias de terceros.
 
-El ícono Android de pixel art rojo fue elegido por Gabriel Hurtado Avilés el24deoctubrede2026 entre cinco propuestas ilustradas generadas con IA a partir del ícono original. No cambia los créditos ni las licencias del juego original.
+El ícono Android de pixel art rojo fue elegido por Gabriel Hurtado Avilés el 24 de octubre de 2026 entre cinco propuestas ilustradas generadas con IA a partir del ícono original. No cambia los créditos ni las licencias del juego original.

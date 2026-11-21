@@ -10,7 +10,7 @@ var music = [snd_MM, snd_BKMusic, snd_TY];
 // Sound effects: every other sound the game plays.
 var effects = [snd_6AM, snd_CamChng, snd_CamDown, snd_CamUp, snd_Electricidad,
     snd_EmptyButton, snd_Footsteps, snd_GameOver, snd_IntrusoJS, snd_Laser,
-    snd_Night, snd_PMJS, snd_Reload];
+    snd_Night, snd_Reload];
 
 for (var i = 0; i < array_length(music); i++) {
     audio_sound_gain(music[i], global.vol_music, 0);

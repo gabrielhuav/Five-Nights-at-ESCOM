@@ -27,7 +27,7 @@ if (!privacy_open) {
 
     var policy;
     if (privacy_page == 0) {
-        policy = "Versión 0.1.0 · 23 de octubre de 2026\n\n"
+        policy = "Versión " + GM_version + " · Aviso del 23 de octubre de 2026\n\n"
             + "Responsable: Gabriel Hurtado Avilés (gabrielhuav).\n"
             + "Contacto de privacidad y soporte: gabrielhuav@gmail.com.\n\n"
             + "Esta versión funciona sin cuentas de usuario y no recopila ni comparte datos personales. "

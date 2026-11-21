@@ -19,9 +19,11 @@
 - **Pruebas:** APK1009 final del PR6 en FiveNightsESCOM_Test; diagnóstico1008 con 33 comprobaciones de ganancia aprobadas y luego retirado. En1010: actualización sobre1009, menú, Opciones, pausa con ú y salida al menú. Capturas intermedias oscuras no certifican reanudación. El propietario aclaró que el S22+ mostraba el juego normalmente; no se usó en esta repetición. Ejecución 16 KB anterior sobre1007; para1010 sólo alineación estática. Ver `docs/pruebas-pr-6-2026-11-14.md` y límites de QA general.
 - **Códigos:** 1000/1001 consumidos en Play; 1002–1009 locales; 1010 ya cargado. Nunca reutilizarlos para otro binario. Consultar el máximo de Console antes de elegir otro.
 - **Contexto y entregas:** `C:\Users\gabri\Downloads\1151055 Administracion\README_PARA_IAS_PUBLICACION_GOOGLE_PLAY.md`; carpeta `Publicacion Five Nights at ESCOM\Actualizacion Opciones y Pausa 2026-11-14` con informe, capturas y PPTX nuevo. La carpeta `Actualizacion Noche 2` conserva la publicación anterior.
-- **Ramas históricas:** Pages sirve la política desde `prepare/google-play-closed-test:/docs`: no borrar esa rama ni cambiar la fuente sin autorización. `prepare/android-night2-update` conserva el commit exacto de0.1.1. El destino actual del PR #5 no se comprobó en esta sesión.
+- **Ramas históricas:** Pages sirve la política desde `prepare/google-play-closed-test:/docs`: no borrar esa rama ni cambiar la fuente sin autorización. `prepare/android-night2-update` conserva el commit exacto de0.1.1. El PR #5 de auditoría está cerrado sin fusionar. El estado de sus hallazgos consta en `docs/auditoria-pr-5.md`.
 
 ## Firma y publicación
+
+- Al preparar una versión, comprobar las versiones de GameMaker para Android y Windows y el aviso del juego basado en `GM_version`. Verificar la fecha de la política pública en la rama de Pages.
 
 - Nunca buscar, leer, registrar, mostrar o versionar contraseñas. El propietario las introduce localmente.
 - Llave de carga existente fuera del repo: `C:\Users\gabri\.android\keystores\five-nights-at-escom-upload.jks`; alias `upload-five-nights-at-escom`. No crear otra ni reutilizar llaves de otros proyectos.

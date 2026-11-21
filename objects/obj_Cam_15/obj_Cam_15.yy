@@ -1,11 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_Cam_15",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_Cam_15",
   "overriddenProperties":[],
@@ -13,7 +9,10 @@
     "name":"Botones",
     "path":"folders/Objetos/Botones.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_CamBase",
+    "path":"objects/obj_CamBase/obj_CamBase.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

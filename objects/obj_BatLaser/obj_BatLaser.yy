@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_BatLaser",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_BatLaser",
   "overriddenProperties":[],
@@ -11,7 +9,10 @@
     "name":"Interfaz",
     "path":"folders/Objetos/Camaras/Lugares/Interfaz.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_BatDrain",
+    "path":"objects/obj_BatDrain/obj_BatDrain.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

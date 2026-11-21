@@ -3,14 +3,11 @@
 /// @DnDHash : 66872912
 audio_stop_all();
 
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1.1
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
 /// @DnDHash : 63E3DAD8
-/// @DnDArgument : "soundid" "snd_TY"
-/// @DnDArgument : "loop" "1"
-/// @DnDArgument : "gain" "Vol"
-/// @DnDSaveInfo : "soundid" "snd_TY"
-audio_play_sound(snd_TY, 0, 1, Vol, undefined, 1.0);
+/// @DnDArgument : "code" "credits_music = audio_play_sound(snd_TY, 0, true);"
+credits_music = audio_play_sound(snd_TY, 0, true);
 
 /// @DnDAction : YoYo Games.Sequences.Sequence_Create
 /// @DnDVersion : 1
