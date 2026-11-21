@@ -1,10 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_Prismoso12",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_Prismoso12",
   "overriddenProperties":[],
@@ -12,7 +9,10 @@
     "name":"Prismoso",
     "path":"folders/Objetos/Camaras/Animatronicos/Prismoso.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_PrismosoCam",
+    "path":"objects/obj_PrismosoCam/obj_PrismosoCam.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

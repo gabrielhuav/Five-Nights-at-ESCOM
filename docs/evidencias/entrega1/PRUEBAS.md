@@ -4,14 +4,15 @@ Matriz de QA para la característica `feature/night-2` (issue a enlazar cuando X
 abra). Casos ejecutados sobre un build local (GameMaker no compila en CI para esta ruta,
 ver nota en `.github/workflows/pr-quality-gate.yml`).
 
-**SHA base:** `7ab6b0399ff609349ae73159be7901c03eb799ae`
-**SHA probado:** `66be57f` (incluye sistema de cámaras de N2 y ajuste de dificultad a 10s/8 cámaras)
+**Integración verificable:** [PR #4 y commit squash `f62f9f0`](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/pull/4).
+**Compilación de la prueba histórica:** el equipo registró los SHA `7ab6b039` y `66be57f` de su rama de trabajo. El fork no conserva esos objetos.
+**Pruebas posteriores en Android:** [informe de 0.1.10](../../publicacion/ACTUALIZACION_0.1.10_2026-11-14.md), con los casos observados y sus límites.
 **Dispositivo/entorno:** macOS (Apple Silicon), GameMaker IDE v2026.0.0.16, Runtime v2026.0.0.23
 
 | ID | Tipo | Autor / fecha | Precondiciones | Pasos | Esperado | Real | Estado | Evidencia |
 |----|------|----------------|-----------------|-------|----------|------|--------|-----------|
 | RF-01 | Ruta feliz | Jose Abel Reyes Castellanos / 2026-10-08 | Partida con Noche 1 recién superada | 1. Ganar Noche 1. 2. Volver al menú. 3. Tocar "Continuar". | El botón está habilitado y lleva directo a la Noche 2 (`room N2`), no a Noche 1. | Confirmado: tras ganar la Noche 1, "Continuar" llevó directo a la sala N2. | Aprobado | [night2-05](night2-05-qa-n2-sin-vigilar-camara.png) |
-| LIM-02 | Límite / alterno | [Nombre] / [fecha] | Partida nueva, sin ninguna noche superada (`save.ini` inexistente o en 0) | 1. Abrir el menú principal sin haber jugado antes. | El botón "Continuar" se muestra deshabilitado (opacidad reducida) y no reacciona al toque. | [PENDIENTE] | [PENDIENTE] | [captura] |
+| LIM-02 | Límite / alterno | [Nombre] / [fecha] | Partida nueva, sin ninguna noche superada (`progreso.ini` inexistente o con `noche_ganada` en 0) | 1. Abrir el menú principal sin haber jugado antes. | El botón "Continuar" se muestra deshabilitado (opacidad reducida) y no reacciona al toque. | [PENDIENTE] | [PENDIENTE] | [captura] |
 | REG-03 | Regresión | [Nombre] / [fecha] | Build con los cambios de Noche 2 aplicados | 1. Iniciar "Nueva partida" (no Continuar). 2. Jugar la Noche 1 normalmente hasta perder o ganar. | La Noche 1 se comporta igual que antes del cambio: batería, cámaras y personajes PM sin alterar. | [PENDIENTE] | [PENDIENTE] | [captura/video] |
 | NAV-04 | Navegación / estado | [Nombre] / [fecha] | Noche 1 recién superada (progreso guardado) | 1. Ganar Noche 1. 2. Cerrar la app por completo. 3. Reabrir la app. 4. Tocar "Continuar". | El progreso persiste tras cerrar la app: "Continuar" sigue habilitado y lleva a Noche 2. | [PENDIENTE] | [PENDIENTE] | [captura] |
 | A11Y-05 | Accesibilidad | [Nombre] / [fecha] | Menú principal visible | 1. Medir el área táctil del botón "Continuar" en ambos estados. 2. Verificar contraste del estado deshabilitado contra el fondo. | El botón mantiene un área táctil ≥ al resto de los botones del menú; el estado deshabilitado es distinguible pero legible (no desaparece). | [PENDIENTE] | [PENDIENTE] | [captura] |

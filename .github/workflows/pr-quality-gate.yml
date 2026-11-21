@@ -4,15 +4,8 @@ on:
   pull_request:
     branches: [ main ]
 
-# Nota sobre esta ruta (GameMaker / FiveNightsAtESCOM):
-# No es posible compilar ni correr el juego completo en GitHub Actions sin una
-# licencia de GameMaker y su runtime (Igor), que no esta disponible en un
-# runner gratuito. Por eso este workflow automatiza solo lo verificable sin el
-# motor: integridad del proyecto (que no falten recursos referenciados en el
-# .yyp) y que la documentacion de QA de la caracteristica se haya actualizado.
-# El resto del QA (ruta feliz, estados alternos, navegacion, accesibilidad) se
-# hace de forma manual, jugando el build local, y se documenta en
-# docs/evidencias/entrega1/PRUEBAS.md con evidencia (capturas) por cada caso.
+permissions:
+  contents: read
 
 jobs:
   validate-gamemaker-project:
@@ -20,6 +13,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,10 +24,8 @@ jobs:
       - name: Validate .yyp resource references
         run: python3 tools/validate_project.py
 
-      - name: Check QA evidence was documented
-        run: |
-          if [ ! -s "docs/evidencias/entrega1/PRUEBAS.md" ]; then
-            echo "::error::docs/evidencias/entrega1/PRUEBAS.md esta vacio. Documenten el QA de esta caracteristica antes de marcar el PR como Ready for review."
-            exit 1
-          fi
-          echo "docs/evidencias/entrega1/PRUEBAS.md tiene contenido. OK."
+      - name: Verify QA evidence for the reviewed game tree
+        env:
+          QA_BASE: ${{ github.event.pull_request.base.sha }}
+          QA_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: python3 tools/validate_qa.py "$QA_BASE" "$QA_HEAD"

@@ -56,7 +56,7 @@ Todas son capturas reales del juego: Galaxy S22+ durante la prueba de la 0.1.1 (
 - **Sobrevive hasta las 6 AM.** El reloj avanza desde las 10 PM; al llegar a las 6 AM ganas la noche.
 - **Vigila.** Abre las cámaras y elige entre CAM 01 y CAM 19 para ubicar a los enemigos en el mapa.
 - **Defiéndete.** El láser protege la oficina. Tanto el láser como las cámaras gastan batería.
-- **Cuida la batería.** En la 0.1.1, sin batería se apagan cámaras y láser. En `main` (PR #2, aún no publicado) agotarla provoca un apagón, el susto y Game Over.
+- **Cuida la batería.** Desde la 0.1.10, agotarla desactiva las cámaras y el láser e inicia el apagón, el susto y Game Over.
 - **Noche 2.** Prismoso sigue activo y aparece el **Intruso**: empieza en la cámara 1 y avanza una cámara cada 10 segundos si no lo estás mirando; si llega a la cámara 8, te atrapa.
 - **Continuar.** Al ganar la Noche 1 se guarda el progreso y el menú habilita **Continuar**, que lleva directo a la Noche 2.
 

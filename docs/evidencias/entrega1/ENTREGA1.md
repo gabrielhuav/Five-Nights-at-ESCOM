@@ -25,40 +25,20 @@ Las imágenes van en `docs/evidencias/img/bocetos/`. Cada una lleva un pie con *
 | 4 | Monitor de cámaras | `img/` | Mapa con las 19 cámaras y la cámara activa. Elaborado por Abel. |
 | 5 | Pantalla de victoria | `img/` | "6 AM — Noche superada", guardado del avance. Elaborado por Jonathan. |
 
-### Diagrama del recorrido del usuario
+### Recorrido del usuario
 
-Desde que abre la aplicación hasta que completa la tarea principal (sobrevivir una noche y que el avance quede guardado).
-
-
-
-*Figura 6. Recorrido del usuario. Elaborado por [Nombre] en Mermaid.*
-
-### Estados fuera de la ruta feliz
-
-
-
-### Esquema de la pantalla de juego (ruta de juego)
-
-
-
----
+1. El jugador selecciona **Nuevo Juego** y entra a la oficina.
+2. Durante la ronda, vigila las cámaras, usa el láser y administra la batería hasta las 6 AM.
+3. Si supera la Noche 1, el juego guarda el avance y habilita **Continuar** para entrar a la Noche 2.
+4. Si un enemigo lo alcanza, aparece la pantalla de derrota y puede volver al menú.
 
 ## 1.3 Historia de usuario y criterio de aceptación
 
+Como jugador, quiero que el juego conserve las noches que superé para poder continuar después de cerrar la aplicación.
 
-
----
+El juego habilita **Continuar** al superar la Noche 1 y permite acceder a la Noche 2 después de reabrir la aplicación. Las pruebas ejecutadas y pendientes se registran en [PRUEBAS.md](PRUEBAS.md).
 
 ## 1.4 Evidencias de la Parte 1
 
-| Evidencia | Ubicación | Responsable | Estado |
-|---|---|---|---|
-| Ficha de idea completa y versionada | [`docs/idea.md`](idea.md) | [Ximena] | ☐ |
-| Bocetos de pantallas | `docs/img/bocetos/` y este documento | [Nombre] | ☐ |
-| Diagrama del recorrido del usuario | Sección 1.2 de este documento | [Nombre] | ☐ |
-| Estados fuera de la ruta feliz señalados | Sección 1.2 de este documento | [Nombre] | ☐ |
-| Esquema de la pantalla de juego | Sección 1.2 de este documento | [Nombre] | ☐ |
-| Historia de usuario y criterio de aceptación | Sección 1.3 de este documento | [Nombre] | ☐ |
-| Exposición en clase (máx. 5 min) | Presentación: [enlace o ruta] | Todo el equipo | ☐ |
-
-
+- [Ficha de idea](IDEA.md)
+- [Matriz de pruebas y capturas de la Noche 2](PRUEBAS.md)

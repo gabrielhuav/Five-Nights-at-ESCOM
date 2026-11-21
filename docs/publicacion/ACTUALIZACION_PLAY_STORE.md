@@ -2,6 +2,12 @@
 
 **Estado vigente: 0.1.10 (1010) PUBLICADA en la prueba cerrada Alpha. Envío ID 3: enviado el 14 nov 2026 a las 20:35 y publicado a las 20:42 (Ciudad de México), confirmado directamente en Play Console. No es producción abierta.** [Comprobante e historial](ACTUALIZACION_0.1.10_2026-11-14.md).
 
+## Siguiente actualización · Auditoría del PR #5
+
+La base en GitHub es `2fa280c`. La 0.1.10 publicada en Alpha se compiló desde `a7bee92`. Los cinco archivos que difieren entre ambos commits son documentación.
+
+El [seguimiento de los 37 hallazgos](../auditoria-pr-5.md) registra las correcciones de la siguiente actualización y su evidencia. La validación de Windows es de compilación. El candidato sigue pendiente de QA en el juego, confirmación de procedencia de recursos y verificación Android. Elegir el código una vez consultado el máximo en Play Console.
+
 ## Historial de preparación previo al envío · 14 nov 2026
 
 PR #6 **fusionado por el propietario** (`ae1037c`); PR #7 **fusionado tras autorización expresa** (`c267873`). La lógica del juego coincide con `6b76378`, probado en APK1009; sólo se añadió CODEOWNERS. Main está protegida mediante reglas27289829: PR, aprobación del propietario, revisión nueva tras cambios y ambas comprobaciones obligatorias. La excepción del único administrador sólo permite actuar mediante PR.

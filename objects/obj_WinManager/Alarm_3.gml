@@ -13,14 +13,12 @@ if(Vol > 0)
 	/// @DnDArgument : "var" "Vol"
 	Vol = max(0, Vol - 0.1);
 
-	/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
-	/// @DnDVersion : 1.1
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
 	/// @DnDHash : 6086804F
 	/// @DnDParent : 1130E8A7
-	/// @DnDArgument : "sound" "snd_TY"
-	/// @DnDArgument : "volume" "Vol * global.vol_music"
-	/// @DnDSaveInfo : "sound" "snd_TY"
-	audio_sound_gain(snd_TY, Vol * global.vol_music, 0);
+	/// @DnDArgument : "code" "audio_sound_gain(credits_music, Vol, 0);"
+	audio_sound_gain(credits_music, Vol, 0);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1

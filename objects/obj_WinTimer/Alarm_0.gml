@@ -3,8 +3,8 @@ if (global.EnergyBlackout) exit;
 /// @DnDVersion : 1
 /// @DnDHash : 73B05938
 /// @DnDArgument : "var" "global.Hora"
-/// @DnDArgument : "value" "8"
-if(global.Hora == 8)
+/// @DnDArgument : "value" "7"
+if(global.Hora == 7)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
