@@ -23,6 +23,7 @@ Estado al 8 de noviembre de 2026. Este documento resume lo que consta en el repo
 | `datafiles/vd_PSJS1.mp4` | Video del proyecto original. Falta documentar el origen y permiso específicos de la imagen y el audio. | Seguimiento en `inventario_recursos.md` del expediente. |
 | `fonts/fnt_Privacidad` | El recurso de GameMaker declara Arial. Las condiciones aplicables a los glifos compilados están pendientes de documentar. | `fonts/fnt_Privacidad/fnt_Privacidad.yy`. |
 | `options/android/icons*` | Variante pixel art seleccionada por el propietario a partir del ícono original. | `AUTHORS.md` y materiales de la ficha en el expediente. |
+| Oficina de noche: `sprites/spr_Culturales1`, `sprites/spr_CPuerta`, `sprites/spr_PMO1`, `sprites/spr_CLaser1`, `sprites/spr_CLOn`, `sprites/spr_CLOff`, `sprites/spr_MonitorMarco`, `sprites/spr_TerminalCRT`, `sprites/spr_TerminalFont` | Edición con IA (Google Flow, modelo Nano Banana Pro) de la fotografía original de la oficina, hecha por Miguel Ángel Rodríguez Candelario en noviembre de 2026. Los rayos del láser y el efecto de pantalla se dibujaron por código (Python con Pillow) y Prismoso en la puerta es el sprite original oscurecido. `spr_TerminalFont` contiene los caracteres de la fuente Press Start 2P (SIL Open Font License 1.1, Copyright 2012 The Press Start 2P Project Authors). La distribución en Google Play depende de la aprobación del propietario en el PR. | Pull Request de la oficina de noche. Conservar los créditos de la fotografía original. |
 
 ## Motor
 
