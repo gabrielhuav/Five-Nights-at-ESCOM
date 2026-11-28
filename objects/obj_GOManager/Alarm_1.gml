@@ -18,5 +18,11 @@ switch(l6837E2B6_0)
         with (obj_GOStatic) image_alpha = 0.156;
         alarm_set(2, 403);
         break;
+    case 3:
+        sprite_index = spr_Operadora_GO;
+        image_index = 0;
+        with (obj_GOStatic) image_alpha = 0.156;
+        alarm_set(2, 403);
+        break;
 	break;
 }

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_Llamada_N3_guardia",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":3,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":53.19,
+  "exportDir":"",
+  "name":"snd_Llamada_N3_guardia",
+  "parent":{
+    "name":"Efectos de Sonido",
+    "path":"folders/Sonidos/Efectos de Sonido.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"snd_Llamada_N3_guardia.mp3",
+  "volume":1.0,
+}

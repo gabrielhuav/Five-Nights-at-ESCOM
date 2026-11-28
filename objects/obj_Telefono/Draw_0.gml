@@ -1,0 +1,22 @@
+// Pantallita del telefono (x 780-862, y 600-638 del sprite): las llamadas perdidas.
+if (faltas < 1 || faltas > 2) exit;
+var _lineas = (faltas == 1) ? ["1 llamada", "perdida"] : ["2 llamadas", "perdidas"];
+var _font = draw_get_font();
+var _col = draw_get_colour();
+var _ha = draw_get_halign();
+var _va = draw_get_valign();
+draw_set_font(fnt_Privacidad);
+draw_set_colour(make_colour_rgb(210, 255, 235));
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+var _alto = string_height("Ag");
+var _ancho = max(string_width(_lineas[0]), string_width(_lineas[1]));
+var _esc = min(76 / _ancho, 34 / (_alto * 2));
+var _cx = x + 121;
+var _cy = y + 29;
+draw_text_transformed(_cx, _cy - _alto * _esc / 2, _lineas[0], _esc, _esc, 0);
+draw_text_transformed(_cx, _cy + _alto * _esc / 2, _lineas[1], _esc, _esc, 0);
+draw_set_font(_font);
+draw_set_colour(_col);
+draw_set_halign(_ha);
+draw_set_valign(_va);

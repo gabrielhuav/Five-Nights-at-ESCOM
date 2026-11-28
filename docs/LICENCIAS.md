@@ -23,6 +23,9 @@ Estado al 8 de noviembre de 2026. Este documento resume lo que consta en el repo
 | `datafiles/vd_PSJS1.mp4` | Video del proyecto original. Falta documentar el origen y permiso específicos de la imagen y el audio. | Seguimiento en `inventario_recursos.md` del expediente. |
 | `fonts/fnt_Privacidad` | El recurso de GameMaker declara Arial. Las condiciones aplicables a los glifos compilados están pendientes de documentar. | `fonts/fnt_Privacidad/fnt_Privacidad.yy`. |
 | `options/android/icons*` | Variante pixel art seleccionada por el propietario a partir del ícono original. | `AUTHORS.md` y materiales de la ficha en el expediente. |
+| Noche 3, imágenes: `sprites/spr_Operadora_*`, `sprites/spr_Asomado` | Generadas con IA (Google Flow, modelo Nano Banana Pro) por Miguel Ángel Rodríguez Candelario en noviembre de 2026 y montadas sobre las fotografías de las cámaras del juego con Python (Pillow). El texto de `spr_Operadora_GO` usa la fuente Press Start 2P (SIL Open Font License 1.1, Copyright 2012 The Press Start 2P Project Authors), dibujada dentro de la imagen. | Pull Request de la Noche 3. |
+| Noche 3, voces: `sounds/snd_Llamada_*`, `sounds/snd_Op_*` | Generadas con edge-tts (voces neuronales de Microsoft `es-MX-JorgeNeural` y `en-US-AvaMultilingualNeural`) y procesadas con ffmpeg. Microsoft no publica condiciones de uso específicas para este servicio gratuito; la distribución en Google Play depende de la aprobación del propietario en el PR. | Textos y ajustes en [noche3/guion-de-audios.md](noche3/guion-de-audios.md). |
+| Noche 3, sonidos sin voz: `sounds/snd_Telefono_*`, `sounds/snd_Aturdido`, `sounds/snd_Operadora_pasos`, `sounds/snd_Respiracion`, `sounds/snd_Operadora_grito` | Sintetizados con ffmpeg, sin bancos de sonido. Creación propia. | [noche3/guion-de-audios.md](noche3/guion-de-audios.md). |
 
 ## Motor
 

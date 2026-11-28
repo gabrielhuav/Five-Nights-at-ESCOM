@@ -16,5 +16,10 @@ switch(l3A51AFD2_0)
         audio_play_sound(snd_GameOver, 0, 0, 1.0, undefined, 1.0);
         alarm_set(1, 20);
         break;
+    case 3:
+        with (obj_OperadoraJS) instance_destroy();
+        audio_play_sound(snd_GameOver, 0, 0, 1.0, undefined, 1.0);
+        alarm_set(1, 20);
+        break;
 	break;
 }
