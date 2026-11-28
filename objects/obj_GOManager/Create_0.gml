@@ -11,4 +11,8 @@ switch (global.JSBy) {
         instance_create_layer(0, 0, "Estatica", obj_IntrusoJS);
         alarm_set(0, 150);
         break;
+    case 3:
+        instance_create_layer(0, 0, "Estatica", obj_OperadoraJS);
+        alarm_set(0, 150);
+        break;
 }

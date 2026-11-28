@@ -59,6 +59,7 @@
     {"name":"inst_2D47A63D","path":"rooms/Culturales1/Culturales1.yy",},
     {"name":"inst_B5CD34","path":"rooms/Culturales1/Culturales1.yy",},
     {"name":"inst_3E8C3CEE","path":"rooms/Culturales1/Culturales1.yy",},
+    {"name":"inst_778D541A","path":"rooms/Culturales1/Culturales1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -139,6 +140,7 @@
         {"$GMRInstance":"v4","%Name":"inst_42288AED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_42288AED","objectId":{"name":"obj_CLaser","path":"objects/obj_CLaser/obj_CLaser.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-160.0,},
         {"$GMRInstance":"v4","%Name":"inst_7F67F24","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F67F24","objectId":{"name":"obj_PM","path":"objects/obj_PM/obj_PM.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":640.0,},
         {"$GMRInstance":"v4","%Name":"inst_14FA575B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14FA575B","objectId":{"name":"obj_PrismosoO1","path":"objects/obj_PrismosoO1/obj_PrismosoO1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_778D541A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_778D541A","objectId":{"name":"obj_Telefono","path":"objects/obj_Telefono/obj_Telefono.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":700.0,"y":430.0,},
       ],"layers":[],"name":"Botones","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3B0141F6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_3B0141F6","objectId":{"name":"obj_UI","path":"objects/obj_UI/obj_UI.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":928.0,},
